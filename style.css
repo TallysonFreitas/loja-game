@@ -194,7 +194,7 @@ section h3{
     font-size: 2em;
 }
 
-#final div{
+#final .final{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -207,9 +207,8 @@ section h3{
     width: 300px;
 }
 
-#final div form label{
+#final div form div label{
     display: block;
-    margin-top: 20px;
     font: bold 1em sans-serif;
 }
 
@@ -224,8 +223,12 @@ section h3{
     cursor: pointer;
 }
 
-#final div form input{
+#final div form div input{
     margin-bottom: 0;
     padding: 5px;
     width: 300px;
+}
+
+#final div form div{
+    margin-bottom: 10px;
 }

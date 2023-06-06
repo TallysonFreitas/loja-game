@@ -15,7 +15,7 @@ $(document).ready(function(){
         placeholder:'00000-000'
     })
 
-    $("#ddn").mask('__/__/____',{
+    $("#ddn").mask('00/00/0000',{
         placeholder:'01/01/1999'
     })
 
