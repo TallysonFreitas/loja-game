@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.carrossel{
+    height: 400px;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+header{
+    background-color: #BA3F1D;
+    height: 100px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header h1{
+    color: white;
+    font: bold normal 2.5em 'Fira Sans', sans-serif;
+    ;
+}
+
+.container{
+    width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+ul li{
+    display: inline;
+    margin-right: 10px;
+    
+}
+
+ul li a{
+    color: white;
+    font: bold normal 1.2em 'Fira Sans', sans-serif;
+    ;
+    text-decoration: none;
+    padding: 5px;
+}
+
+section {
+    margin:50px 0;
+}
+
+#conteudo{
+    display: block;
+}
+
+h2{
+    text-align: center;
+    font: bold normal 2.5em 'Fira Sans', sans-serif;
+    margin-bottom: 50px;
+}
+
+.conteudo div p{
+margin-bottom: 10px;
+}
+
+.conteudo div button{
+    padding: 8px;
+    width: 200px;
+    font: bold normal 1em 'Fira Sans', sans-serif;
+    background-color: rgb(49, 160, 49);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#inspecionar{
+    background-color: rgb(181, 201, 0);
+}
+
+#nota{
+    background-color: rgb(199, 0, 0);
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.conteudo img{
+    width: 550px;
+}
+
+section h3{
+    margin-bottom: 10px;
+    font: bold normal 1.7em 'Fira Sans', sans-serif;
+}
+
+.jogos{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.jogos div{
+    width: 30%;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.jogos div img{
+    width: 100%;
+}
+
+.jogos p {
+    margin-bottom: 10px;
+}
+
+.jogos div button{
+    padding: 8px;
+    width: 100%;
+    font: bold normal 1em 'Fira Sans', sans-serif;
+    background-color: rgb(49, 160, 49);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#meio{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.recomendacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.recomendacao h3{
+    margin: 30px 10px;
+}
+
+.recomendacao p{
+    width: 70%;
+}
+
+.recomendacao div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recomendacao div img{
+    height: 32px;
+    width: auto;
+}
+
+.recomendacao img{
+    width: 80%;
+}
